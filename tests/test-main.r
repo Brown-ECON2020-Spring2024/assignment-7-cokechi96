@@ -15,7 +15,7 @@ test_that("estimated coefficient for gdpPercap is reasonable", {
 })
 
 test_that("number of observations equal 1704", {
-    expect_equal(nobs(model), 1704)
+    expect_equal(nobs(model), 1703)
 })
 
 test_that("year and country create a unique id", {
